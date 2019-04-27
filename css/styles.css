@@ -1,0 +1,194 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight:600;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings and Containers */
+
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: white;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+
+/* Navigation Bar CSS  */
+
+.navbar {
+  padding: 0px 0px 100px 0px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3rem;
+}
+
+.nav-item {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+/* Title Section CSS */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.download-btn {
+  margin: 50px 10px;
+  padding: 7px 12px;
+}
+
+.rotated-image {
+  margin-left: 50px;
+  position: absolute;
+  transform: rotate(25deg);
+  width:60%;
+}
+
+
+/* Features Section CSS */
+
+#features{
+  position: relative;
+}
+
+.feature-heading {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon-style {
+  color: #ef8172;
+  margin-bottom: 1.25rem;
+}
+
+.icon-style:hover {
+  color:#ff4c68;
+}
+
+.back-to-top {
+  margin-top: 10px;
+}
+
+/* Testimonials Section CSS */
+
+#testimonials {
+  position: relative;
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1.25rem;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+}
+
+/* Press Section CSS */
+
+#press {
+  padding-bottom: 3%;
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section CSS */
+
+.pricing-heading {
+  color: #ef8172;
+}
+
+.pricing-heading:hover {
+  color:#ff4c68;
+}
+
+.card {
+  margin: 0 0px 10px 0px;
+}
+
+.pricing-header {
+  margin-bottom: 50px;
+}
+
+.pricing-text {
+    font-size: 3rem;
+}
+
+/* Call To Action Section CSS */
+
+
+/* Footer CSS */
+
+.footer-icons {
+  margin-bottom: 20px;
+}
+
+.footer-icon {
+  padding: 5px;
+}
+
+/* Media Queries */
+
+@media (max-width: 992px) {
+
+#title .container-fluid {
+      text-align: center;
+    }
+
+.big-heading {
+    font-size: 2.5rem;
+  }
+
+.rotated-image {
+      margin-left: 0px;
+      position: static;
+      transform: rotate(0deg);
+      width:40%;
+  }
+
+.testimonial-text {
+  font-size: 2rem;
+  }
+
+}
